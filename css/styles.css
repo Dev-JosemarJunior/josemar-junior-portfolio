@@ -364,7 +364,7 @@ a:hover {
   position: relative;
   width: min(420px, 100%);
   aspect-ratio: 1;
-  margin: 0 auto;
+  margin: 0 auto 2.75rem;
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -429,6 +429,13 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.places[hidden],
+.place-story[hidden],
+.globe-frame[hidden] {
+  display: none !important;
 }
 
 .place {
